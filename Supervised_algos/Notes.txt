@@ -1,0 +1,8 @@
+One of the most popular and basic supervised algorithms is Regression.
+There are many types of regression, but two of the most popular are Linear Regression and Logistic Regression.
+Regression can be used for cases where we need predict a pattern i.e. temperature, prices, etc.
+Linear regression:
+Not very good for classification.
+Data quality can effect the model too much.
+It is computationaly cheaper.
+Can be used for predicting sales, trends, impact of price changes, risk assesment of finances.
