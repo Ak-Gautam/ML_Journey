@@ -1,8 +1,18 @@
 One of the most popular and basic supervised algorithms is Regression.
 There are many types of regression, but two of the most popular are Linear Regression and Logistic Regression.
 Regression can be used for cases where we need predict a pattern i.e. temperature, prices, etc.
+
 Linear regression:
+y = m * x + c
 Not very good for classification.
 Data quality can effect the model too much.
 It is computationaly cheaper.
 Can be used for predicting sales, trends, impact of price changes, risk assesment of finances.
+
+Logistic Regression: (sigmoid curve)
+The range of a sigmoid function is -infinity to infinity
+logistic formula from straingt line : y = m1x1 + m2x2 + .....
+to get the desired range : log(y/(1-y)) where y = m1 * x1 + m2 * x2 + ......
+Used when output is in binary format (one or the other)
+Decides if the value is 0 or 1 based on the threshold
+Used for weather prediction, illness determination
