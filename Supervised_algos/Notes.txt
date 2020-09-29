@@ -16,3 +16,25 @@ to get the desired range : log(y/(1-y)) where y = m1 * x1 + m2 * x2 + ......
 Used when output is in binary format (one or the other)
 Decides if the value is 0 or 1 based on the threshold
 Used for weather prediction, illness determination
+
+
+Classification:
+Divinding the dataset into different categories by adding respective labels.
+Some popular classsification algorithms :
+Decision Tree   Rndom Forest   Naive Bayes   KNN    SVM
+
+* Decision tree : step by step algorithm which works on if condition 1 is true check condition 2, if false execute a task.
+                    Not suitable for larger datasets.
+                    readable algorithm, so you know why this algo took the decison it did.
+
+* Random forest : creates multiple decison trees and merges all of those to get a better result.
+                    devides the dataset into smaller subsets and creates decisons trees on each of those.
+
+* Naive bayes : based on bayes theorem which asssumes thst each faeture in the dataset is independent.
+                    it's simple and effective for datasets of small and average size.
+                    quite useful in NLP and document classification.
+
+* KNN : K-Nearest neighbours where K is the number of neighbours you want to consider.
+            this algo classifies a dataset based on the similar group of features of K number.
+            any point is claassified based on which neighbour group it's nearest to.
+           
